@@ -153,6 +153,24 @@
   }
 }
 
+@media screen and (max-width: 335px) {
+  .btn-book {
+    margin-left: 0px;
+    width: auto;
+    font-size: 10px;
+    padding:  7px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .btn-book {
+    margin-left: 10px;
+    width: auto;
+    font-size: 10px;
+    padding:  7px;
+  }
+}
+
 @media screen and (max-width: 678px) {
   .navbar {
     text-align: center;
@@ -177,7 +195,7 @@
   }
 
   .btn-book {
-    font-size: 15px;
+    font-size: 13px;
     width: calc(100% - 30px); 
   }
 }
