@@ -155,18 +155,18 @@
 
 @media screen and (max-width: 335px) {
   .btn-book {
-    margin-left: 0px;
+    margin-left: 10px;
     width: auto;
-    font-size: 10px;
-    padding:  7px;
+    font-size: 12px;
+    padding:  8px;
   }
 }
 
 @media screen and (max-width: 390px) {
   .btn-book {
-    margin-left: 10px;
+    margin-left: 18px;
     width: auto;
-    font-size: 10px;
+    font-size: 12px;
     padding:  7px;
   }
 }
