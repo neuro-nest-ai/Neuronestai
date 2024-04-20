@@ -346,7 +346,7 @@ export default function
         </div>
       </div>
       <div className="container indus-top ">
-        <h2 className="main-inus-head mt-5">SMS</h2>
+        <h2 className="main-inus-head p-1 mt-5">SMS</h2>
         <div className="row" id="SMS" ref={smsRef}>
 
           <div className="col-lg-6  p-1">
