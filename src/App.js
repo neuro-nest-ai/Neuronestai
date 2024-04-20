@@ -37,7 +37,6 @@ function App() {
           <Route path="/Conversational_Commerce" element={[<TopNav/>,<Home_Commerce/>,<Convo_Commerce/>,<GoToTop/>,<Footer/>]} />
           <Route path="/Conversational_Support" element={[<TopNav/>,<Home_Support/>,<Convo_Support/>,<GoToTop/>,<Footer/>]} />
           <Route path="/platform" element={[<TopNav/>,<Home_Platform/>,<Platchannel/>,<GoToTop/>,<Footer/>]} />
-          <Route path="/platform" element={[<TopNav/>,<Home_Platform/>,<Platchannel/>,<GoToTop/>,<Footer/>]} />
           <Route path="/IndustryMain" element={[<TopNav/>,<Home_Industry/>,<Indus/>,<GoToTop/>,<Footer/>]}/>
           <Route path="/contact_us" element={[<TopNav/>,<Contact/>,<GoToTop/>,<Footer/>]}/>
           <Route path="/Book_a_Demo" element={[<TopNav/>,<Demo/>,<GoToTop/>,<Footer/>]}/>

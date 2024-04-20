@@ -50,8 +50,8 @@ export default function
       <div className="container  indus-top  ">
         <div className="row" id="WhatsApp" ref={whatsappRef}>
 
-          <div className="col-lg-6 col-md-6 col-sm-12 mt order-1  order-lg-1">
-            <h2 className="main-inus-head mt-5">WhatsApp</h2>
+          <div className="col-lg-6 col-md-6 col-sm-12  order-1  order-lg-1">
+            <h2 className="main-inus-head mt-4">WhatsApp</h2>
             <Accordion className="accord-plat" defaultActiveKey="0">
               <Accordion.Item eventKey="0">
                 <Accordion.Header className="plat-head">
@@ -121,7 +121,7 @@ export default function
             {" "}
             <img
               src={plat2}
-              className="plat-img imh1 img-fluid"
+              className="plat-img imh1 mt-5 img-fluid"
               alt="Platform"
             />
           </div>
@@ -274,12 +274,12 @@ export default function
             {" "}
             <img
               src={plat4}
-              className="plat-img w-100 img-fluid"
+              className="plat-img1 img-fluid"
               alt="Platform"
             />
           </div>
-          <div className="col-lg-6 mt-5 p-1 order-1 order-lg-1">
-            <h2 className="main-inus-head mb-5">Facebook</h2>
+          <div className="col-lg-6 mt-4 p-1 order-1 order-lg-1">
+            <h2 className="main-inus-head ">Facebook</h2>
             <Accordion className="accord-plat" defaultActiveKey="0" >
               <Accordion.Item eventKey="0" >
                 <Accordion.Header
@@ -345,11 +345,11 @@ export default function
           </div>
         </div>
       </div>
-      <div className="container indus-top p-5 mt-3">
-        <h2 className="main-inus-head">SMS</h2>
+      <div className="container indus-top ">
+        <h2 className="main-inus-head mt-5">SMS</h2>
         <div className="row" id="SMS" ref={smsRef}>
 
-          <div className="col-lg-6 mt-5 p-1">
+          <div className="col-lg-6  p-1">
 
             <Accordion className="accord-plat" defaultActiveKey="0" >
               <Accordion.Item eventKey="0">
@@ -416,10 +416,10 @@ export default function
 
 
           </div>
-          <div className="col-lg-6 col-12 mt-5 ">
+          <div className="col-lg-6 col-12 ">
             <img
               src={plat5}
-              className="plat-img  imh mt-4 img-fluid"
+              className="plat-img  imh  img-fluid"
               alt="Platform"
             />
           </div>
