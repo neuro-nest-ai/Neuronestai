@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "syne";
+    src: url("../../fonts/Syne-VariableFont_wght.ttf");
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url("../../fonts/Inter-VariableFont_slnt\,wght.ttf");
+  }
+.bg-indus{
+    background: linear-gradient(166deg, #000 0%, #050f1a 50%, #050f1a 100%);
+    outline: none;
+}
+.indus-content{
+    color: #FFF;
+text-align: center;
+font-family: Syne;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+text-transform: capitalize;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 0.7rem
+}
+.icon-round {
+  border: 2px solid #0075ff;
+  border-radius: 50%;
+  width: 61.328px;
+  height: 61.328px;
+  stroke-width: 2.131px;
+  /* stroke: #0075ff; */
+  flex-shrink: 0;
+  display: inline-flex;
+  /* height: 172.556px; */
+  flex-direction: column;
+  align-items: center;
+  gap: 8.567px;
+  /* flex-shrink: 0; */
+}
+.mb-2 {
+    margin-bottom: 0rem !important;
+}
+.para-indus{
+    color: var(--Gray-gray-600, #718096);
+    text-align: center;
+    font-feature-settings: 'salt' on;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+}
+.edu-head{
+    color: #2D3748;
+    text-align: center;
+    font-family: "Syne";
+    font-size: 24.476px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136.523%; 
+}
+.edu-head1{
+    color: #2D3748;
+    text-align: center;
+    font-family: "Syne";
+    font-size: 23.476px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136.523%; 
+}
+.indus-readmore{
+    color: #09F;
+font-family: "Inter";
+font-size: 13.217px;
+font-style: normal;
+font-weight: 600;
+line-height: 21.147px; 
+text-decoration: none;
+}
+.indus-readmore:hover{
+    text-decoration: none;
+}
+.card{
+    border-radius: 13px;
+background: #FFF;
+width: 223px;
+height: 223px;
+flex-shrink: 0;
+}
+.card:hover{
+    background: rgb(240, 246, 246);
+}
+
+.border {
+    border:none !important;
+}
+.call-back{
+    color: #FFF;
+    font-family: "Syne";
+    background: linear-gradient(180deg,rgba(0, 153, 255, 1), rgba(0, 204, 255, 1));
+}
+.call-back:hover{
+    color: blue;
+}
+
+/* Add this to your existing CSS */
+.hover-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.1);
+  }
+  

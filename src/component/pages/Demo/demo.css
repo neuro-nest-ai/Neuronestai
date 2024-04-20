@@ -1,0 +1,288 @@
+@font-face {
+  font-family: syne;
+  src: url("../../fonts/Syne-VariableFont_wght.ttf");
+}
+.headin{
+  font-family: Syne;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.add{
+ list-style-type: square;
+ color: #FFF;
+font-family: Syne;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 170% */
+text-transform: capitalize;
+}
+
+.demo-back{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(166deg, #000 0%, #050f1a 50%, #050f1a 100%);
+  font-family: syne;
+
+    
+}
+
+:root {
+  --primary-color: #f0e9e9;
+  --second-color: #ffffff;
+  --black-color: #000000;
+}
+
+
+
+.wrapper {
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ 
+}
+
+.login_box {
+  position: relative;
+  width: 100%; 
+  max-width: 400px; 
+  height: 100%;
+  backdrop-filter: blur(25px);
+  border: 2px solid var(--primary-color);
+  border-radius: 15px;
+  padding: 2.4em;
+  color: var(--second-color);
+  box-shadow: 0px 0px 10px 2px rgba(33, 28, 28, 0.537);
+}
+@media (max-width: 767px) {
+  .login_box {
+    padding: 1.6em; 
+    height: 60vh; 
+  }
+}
+
+.input_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.input-field {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  background: transparent;
+  color: var(--second-color);
+  padding-inline: 20px 50px;
+  border: 2px solid var(--primary-color);
+  border-radius: 30px;
+  outline: none;
+  color: white;
+}
+.input-field1{
+  width: 100%;
+  height: 105px;
+  font-size: 16px;
+  background: transparent;
+  color: var(--second-color);
+  padding-inline: 20px 50px;
+  border: 2px solid var(--primary-color);
+  border-radius: 30px;
+  outline: none;
+  color: white;
+}
+#user {
+  margin-bottom: 10px;
+}
+.demo-form-head{
+  color:  #f2f0f0;
+font-family: Syne;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.label {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  transition: 0.2s;
+}
+.input-field:focus ~ .label,
+.input-field:valid .label,
+.input-field:not(:placeholder-shown) + .label {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  color: var(--black-color);
+  padding: 0 10px;
+}
+  
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  background-color: var(--primary-color);
+  background: transparent;
+  border-radius: 10% rgb(173, 162, 162);
+  font-size: 16px;
+  resize: none;
+  border: 2px solid  #dbd5d5;
+}
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.input-submit {
+  width: 100%;
+  height: 50px;
+  background:  #3dd8ff;
+    font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.input-submit:hover{
+  background: #FFF;
+}
+
+  
+
+
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-lg-5 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .login_box {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.myTextarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.5rem;
+  pointer-events: none;
+  transition: 0.3s ease-out;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 1rem;
+  border: 2px solid #f2f0f0;
+  border-radius: 4px;
+  color: #fFF;
+}
+
+textarea:focus + label, textarea:not(:placeholder-shown) + label {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  color: var(--black-color);
+  padding: 0 15px;
+
+}
+
+.btn-book2 {
+  background-image: linear-gradient(to top, rgb(74, 214, 246), rgb(242, 248, 250));
+  color: rgb(6, 5, 5);
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid rgba(159, 204, 214, 0.53);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  width: 250px;
+  height: 50px;
+}
+.btn-book2:hover {
+  color: #4c4e4e;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headin {
+    font-size: 24px;
+  }
+  
+  .list {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .demo-back {
+    background-attachment: scroll; 
+  }
+  
+  .login_box {
+    padding: 1.6em;
+    height: auto;
+  }
+  
+  .input-field,
+  .input-field1 {
+    height: 45px; /* Reduced height for input fields */
+    font-size: 14px; /* Reduced font size for input fields */
+  }
+  
+  .input-field1 {
+    height: 85px; /* Adjusted height for larger input field */
+  }
+  
+  .input_submit {
+    height: 40px; /* Reduced height for submit button */
+    font-size: 14px; /* Reduced font size for submit button */
+  }
+  
+  textarea {
+    height: 120px; /* Reduced height for textarea */
+    font-size: 14px; /* Reduced font size for textarea */
+  }
+  
+  .demo-form-head {
+    font-size: 20px; /* Reduced font size for form header */
+  }
+  
+  .btn-book2 {
+    width: 200px; /* Adjusted width for button */
+    height: 40px; /* Reduced height for button */
+    font-size: 16px;
+    margin-left: 10px; /* Reduced font size for button */
+  }
+}

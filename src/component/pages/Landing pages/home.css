@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "syne";
+  src: url("../../fonts/Syne-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background: linear-gradient(4deg , #09b8f8, #005198, black);
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.home-cont1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Syne";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;margin-top: 150px;
+}
+
+.btn-book1 {
+  background-image: linear-gradient(to top, rgb(74, 214, 246), rgb(242, 248, 250));
+  color: rgb(6, 5, 5);
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid rgba(159, 204, 214, 0.53);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  width: 200px;
+}
+.btn-book1:hover {
+  color: #4c4e4e;
+  opacity: 0.9;
+  font-size: 18px;
+}
+  
+.home-para {
+  color: #fff;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-size: 18px;
+  margin: 0px 0;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.72px;
+}
+
+.video {
+  width: calc(100% - 80px); 
+  height: calc(100% - 7px); 
+  border-radius: 40px;
+  border: 14px solid  rgba(226, 230, 230, 0.288); 
+}
+
+@media only screen and (max-width: 768px) {
+  .home-cont1 {
+    font-size: 24px;
+  }
+  
+  .home-para {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .video {
+    width: calc(100% - 80px); 
+    height: calc(100% - 7px); 
+    border-radius: 40px;
+    border: 6px solid  rgba(226, 230, 230, 0.288); 
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  .background {
+    min-height: auto; 
+    padding: 20px;
+  }
+
+  .home-cont1 {
+    font-size: 18px;
+  }
+
+  .home-para {
+    font-size: 14px;
+  }
+
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .btn {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .background {
+    min-height: auto;
+    padding: 20px; 
+  }
+
+  .home-cont1 {
+    font-size: 20px; 
+    margin-top: 60px; 
+  }
+
+  .home-para {
+    font-size: 18px; 
+  }
+
+  .video {
+    width: calc(100% - 90px); 
+    height: calc(100% - 42px); 
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+}

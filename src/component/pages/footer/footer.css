@@ -1,0 +1,37 @@
+.bg-footer{
+    background: linear-gradient(166deg, #000 0%, #010406 50%, #03080d 100%);
+    font-family: "Syne";
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "syne";
+    src: url("../../fonts/Syne-VariableFont_wght.ttf");
+  }
+
+  .active-link {
+    text-decoration: underline;
+  }
+  .call-back{
+    text-decoration: none;
+  }
+  .call-back:hover{
+    text-decoration: none;
+  }
+  
+  .link-tagf{
+    text-decoration: none !important;
+  }
+  .link-tagf:hover{
+    text-decoration: none !important;
+  }
+  .footer{
+    color: #fff;
+  }
+  .footer:hover{
+    color: rgb(85, 210, 219);
+  }
+
+  .contact-icon{
+    font-size: 25px;
+  }

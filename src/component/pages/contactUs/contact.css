@@ -1,0 +1,97 @@
+.contact-para {
+  font-family: Syne;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  background: linear-gradient(98deg, #00c0fc 0%, #033f86 108.7%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@font-face {
+  font-family: "syne";
+  src: url("../../fonts/Syne-VariableFont_wght.ttf");
+}
+.contact-bg {
+  background: linear-gradient(166deg, #000 0%, #050f1a 50%, #050f1a 100%);
+  width: 100%;
+}
+
+.contact-subtitle {
+  color: rgb(230, 230, 230);
+  text-align: center;
+  font-family: Syne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 135% */
+  text-transform: capitalize;
+  width: 100%;
+}
+.form-control {
+  width: 343.621px;
+  height: 51.766px;
+  flex-shrink: 0;
+  border-radius: 6.248px;
+  border: 0.446px solid #fff;
+  background: rgba(0, 153, 255, 0.1);
+  color:white;
+}
+.hariGuhan {
+  width: 90%;
+  height: 190px;
+  flex-shrink: 0;
+  border-radius: 6.248px;
+  border: 0.446px solid #fff;
+  background: rgba(0, 153, 255, 0.1);
+}
+@media screen  and (max-width: 678px){
+  .hariGuhan {
+    width: 100%;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 6.248px;
+    border: 0.446px solid #fff;
+    background: rgba(0, 153, 255, 0.1);
+  } 
+}
+
+label {
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24.098px; /* 141.754% */
+  text-transform: capitalize;
+}
+.form-control::placeholder {
+  color: #fff;
+}
+.hariGuhan::placeholder {
+  color: #fff;
+}
+
+
+.btn-contact  {
+  display: inline-block;
+  background-image: linear-gradient(to right, rgba(79, 212, 249, 0.929), rgb(64, 140, 220));
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 170px;
+  border: 3px solid rgba(182, 188, 190, 0.521);
+}
+
+
+.email-input{
+  margin-right: 70px;
+}
+
+

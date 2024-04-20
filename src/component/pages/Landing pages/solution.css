@@ -1,0 +1,108 @@
+.sol-back {
+  background: linear-gradient(166deg, #000 0%, #050f1a 50%, #050f1a 100%);
+  outline: none;
+
+}
+
+.sol-cont {
+  height: 114px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Syne";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: capitalize;
+}
+
+.solution-head {
+  color: #0075ff;
+  font-family: "Syne";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.solution-para {
+  color: #fff;
+  font-family: "Syne";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: Syne;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.Read-more {
+  color: #09f;
+  font-family: "Inter";
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23.04px;
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+.Read-more:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.market-img {
+  width: 500px;
+  height: 514px;
+  flex-shrink: 0;
+  border-radius: 0px 15.525px 0px 0px;
+  margin-right: 0.1%;
+}
+
+.market-img {
+  position: relative;
+}
+
+.market-img::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 15.525px 0px 0px; /* Assuming you want the same border-radius as the image */
+  background-color: rgba(72, 135, 202, 0.8); /* Adjust the color and opacity as needed */
+  z-index: -1;
+  box-shadow: inset rgba(72, 135, 202, 0.8) 90px 0 150px -33px;
+
+}
+
+
+.img-sol {
+  margin-right: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .sol-cont {
+    font-size: 24px;
+  }
+
+  .market-img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-right: 0;
+  }
+
+}
+
+.glow {
+  box-shadow: inset rgba(72, 135, 202, 0.8) 90px 0 150px -33px;
+}
+

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "syne";
+    src: url("../../../fonts/Syne-VariableFont_wght.ttf");
+  }
+  .common-home{
+    background: linear-gradient(166deg, #000 0%, #050f1a 50%, #050f1a 100%);
+width: 100%;
+  }
+.com-head{
+    font-family: "Syne";
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+    background: linear-gradient(98deg, #00C0FC 0%, #033F86 108.7%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.com-para{
+    color: #FFF;
+font-family: Syne;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; 
+text-transform: capitalize;
+}
+
+.homeimg1{
+    margin-top: 60px;
+   width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+.homecom1{
+    margin-top: 60px;
+}
+
+@media screen and (max-width:578px) {
+    .homeimg1{
+        margin-top: 20px;
+        width:100%;
+        height: auto;
+        border-radius: 30px;
+        margin: auto;
+    }
+    .homecom1{
+        margin-top: 20px;
+    }
+}

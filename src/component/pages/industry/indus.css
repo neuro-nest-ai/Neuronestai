@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "syne";
+  src: url("../../fonts/Syne-VariableFont_wght.ttf");
+}
+.indutry-toporder{
+    overflow-x: hidden;
+  }
+  .home_inud{
+    margin-top: 2.5rem;
+  }
+  .ecom-img{
+   border-radius: 30px;
+    width: 600px;
+    height: 600px;
+    background-position: fixed;
+    top: 50px;
+  
+  }
+  .main-inus-head{
+    font-style: "raleway";
+    color: rgb(0, 201, 239);
+  }
+  .indus-top{
+    padding-top: 5%;
+  }
+  
+  .ecom-extra{
+      /* position: absolute; */
+      height: 80px;
+      width: 80px;;
+      border-radius: 50%;
+      margin-left: 5%;
+  }
+  .ecom-head{
+      font-size: 22px;
+      font-family: syne;
+      
+  }
+  
+  .accord-ecom .accordion-item {
+      border: none; 
+    }
+    
+    .ecom-img {
+      border-radius: 30px;
+      width: 500px;
+      height: 500px;
+      
+    }
+    
+    .ecom-extra {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      margin-left: 5%;
+      
+    }
+    
+  
+  
+    .accord-ecom .accordion-button.active {
+      background-color: #f0f0f0; 
+      color: #fffefe; 
+    }
+    
+    .accord-ecom .accordion-button:hover {
+      background-color: #2b1c1c; 
+      color: #fbf9f9; 
+    }
+    
+    .ecom-extra-wrapper {
+      margin-right: 20px; 
+    }
+    
+    .image-text {
+      margin-left: 40px;
+    }
+  
+    .accord-ecom .accordion-button.active {
+      background-color: transparent;
+      color: #000; 
+    }
+    .hidden {
+      display: none;
+    }
+    
+    .accordion-button:focus .collapsed {
+      z-index: 3;
+      border-color: white !important;
+      outline: 0;
+      box-shadow:white;
+  }
+  
+  .accordion-button:not(.collapsed) {
+      color: black !important;
+      background-color:white !important;
+      box-shadow:  cornsilk !important;
+      border-radius: white !important;
+      margin: white !important;
+      outline: none !important;
+      border-color: white !important;
+  }
+  .accordion-button{
+    border-color: #e0e0e0;
+  }
+
+  .bgindus {
+    background: linear-gradient(166deg, #000 0%, #050f1a 50%, #050f1a 100%);
+    width: 100%;
+  }
+  .comarket-img{
+    width: 514px;
+ height: 514px;
+ flex-shrink: 0;
+ border-radius: 0px 15.525px 0px 0px;
+ margin-right: 0.1%;
+ }
+
+
+
+ .homecom6{
+  margin-top: 90px;
+}
+
+.homeimg6{
+  margin-top: 30px;
+ width: 400px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width:578px) {
+  .homeimg6{
+      margin-top: 20px;
+      width:100%;
+      height: auto;
+      border-radius: 30px;
+      margin: auto;
+  }
+  .homecom6{
+      margin-top: 90px;
+  }
+}

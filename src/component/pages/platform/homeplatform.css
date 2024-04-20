@@ -1,0 +1,23 @@
+.homecom5{
+    margin-top: 70px;
+}
+
+.homeimg5{
+    margin-top: 60px;
+   width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:578px) {
+    .homeimg5{
+        margin-top: 20px;
+        width:100%;
+        height: auto;
+        border-radius: 30px;
+        margin: auto;
+    }
+    .homecom5{
+        margin-top: 60px;
+    }
+}
