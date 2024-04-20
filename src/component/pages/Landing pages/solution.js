@@ -6,7 +6,6 @@ import img1 from "../../assets/abondant cart.png";
 import img2 from "../../assets/Agent assist.png";
 import img3 from "../../assets/bot studio.png";
 import img4 from "../../assets/conversation bot.png";
-import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function Solution() {
@@ -44,13 +43,13 @@ export default function Solution() {
             </p>
           </div>
           <div className="col-lg-6 order-2 order-lg-1">
-            <img src={img1} className="market-img " />
+            <img src={img1} className="market-img "  alt="img"/>
           </div>
         </div>
 
         <div className="row mt-5">
           <div className="col-lg-6 order-2 order-lg-1">
-            <img src={img2} className="market-img img-fluid" />
+            <img src={img2} className="market-img img-fluid" alt="img"/>
           </div>
           <div className="col-lg-6 p-4 py-5 mt-5 order-1 order-lg-1">
             <h3 className="solution-head ">Conversational Commerce</h3>
@@ -75,14 +74,14 @@ export default function Solution() {
             </p>
           </div>
           <div className="col-lg-6 order-2 order-lg-1">
-            <img src={img3} className="market-img  img-fluid" />
+            <img src={img3} className="market-img  img-fluid" alt="img"/>
           </div>
         </div>
        
 
         <div className="row">
           <div className="col-lg-6 order-2 order-lg-1">
-            <img src={img4} className="market-img  img-fluid" />
+            <img src={img4} className="market-img  img-fluid" alt="img"/>
           </div>
           <div className="col-lg-6 p-4 py-5 mt-5 order-1 order-lg-1">
             <h3 className="solution-head ">KRI/KPI Related Solutions</h3>

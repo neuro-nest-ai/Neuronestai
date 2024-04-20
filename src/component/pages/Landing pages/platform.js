@@ -1,6 +1,5 @@
 import React from "react";
 import "./solution.css";
-import { FaGreaterThan } from "react-icons/fa6";
 import img1 from "../../assets/conversation bot.png";
 import img2 from "../../assets/Reports _ Analytics.png";
 import img3 from "../../assets/Agent assist.png";
@@ -34,35 +33,16 @@ export default function Platform() {
             </p>
           </div>
           <div className="col-lg-6 order-2 order-lg-2">
-            <img src={img1} className="market-img " />
+            <img src={img1} className="market-img " alt="img"/>
           </div>
         </div>
       </div>
-      {/* <div className="container mt-2 p-4">
-        <div className="row">
-          
-          <div className="col-lg-6 p-4 py-5 mt-4 order-1 order-lg-1">
-            <h3 className="solution-head">Conversational Bot</h3>
-
-            <p className="solution-para">
-              Engage your audience with intelligent chatbots that seamlessly
-              interact across multiple channels, including WhatsApp, Instagram,
-              SMS, Telegram, websites, and chatbot applications.
-               
-            </p>
-          </div>
-
-          <div className="col-lg-6 w-50 order-2 order-lg-1">
-            <img src={img1} className="market-img " />
-          </div>
-         
-        </div>
-      </div> */}
+  
       <div className="container mt-5 p-4">
         <div className="row">
          
           <div className="col-lg-6 order-2 order-lg-1">
-            <img src={img2} className="market-img img-fluid" />
+            <img src={img2} className="market-img img-fluid" alt="img" />
           </div>
           <div className="col-lg-6 p-3 py-5 mt-5 order-1 order-lg-1 ">
             <h3 className="solution-head ">Reports & Analytics</h3>
@@ -91,16 +71,15 @@ export default function Platform() {
           </div>
 
           <div className="col-lg-6 order-2 order-lg-1">
-            <img src={img3} className="market-img img-fluid" />
+            <img src={img3} className="market-img img-fluid" alt="img" />
           </div>
         
         </div>
       </div>
       <div className="container mt-5  p-4">
         <div className="row">
-          {/* <div className="col-lg-1"></div> */}
           <div className="col-lg-6 order-2 order-lg-1">
-            <img src={img4} className="market-img img-fluid" />
+            <img src={img4} className="market-img img-fluid"  alt="img"/>
           </div>
           <div className="col-lg-6 p-4 py-5 mt-5 order-1 order-lg-1">
             <h3 className="solution-head ">Bot Studio</h3>

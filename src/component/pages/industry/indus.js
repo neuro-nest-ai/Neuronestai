@@ -1,6 +1,6 @@
-import React, { useState, useEffect ,useRef} from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Accordion from "react-bootstrap/Accordion";
-import {useLocation} from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "./indus.css";
 
 import ecom from "../../assets/e-com order tracking.png";
@@ -72,22 +72,22 @@ export default function IndusEcommerce() {
       case "#Education":
         ref = Education;
         break;
-        case "#Food":
+      case "#Food":
         ref = Food;
         break;
-        case "#RealEstate":
+      case "#RealEstate":
         ref = RealEstate;
         break;
-        case "#Entertainment":
+      case "#Entertainment":
         ref = Entertainment;
         break;
-        case "#Logistics":
+      case "#Logistics":
         ref = Logistics;
         break;
-        case "#Healthcare":
+      case "#Healthcare":
         ref = Healthcare;
         break;
-        case "#Travel":
+      case "#Travel":
         ref = Travel;
         break;
 
@@ -98,16 +98,16 @@ export default function IndusEcommerce() {
       ref.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [location]);
- 
+
   const [activeKey, setActiveKey] = useState({
     ecom: 0,
     education: 0,
     food: 0,
-    travel:0,
+    travel: 0,
     entertainment: 0,
-    realEstate:0,
-    logicstics:0,
-    healthcare:0    
+    realEstate: 0,
+    logicstics: 0,
+    healthcare: 0
 
   });
 
@@ -151,30 +151,30 @@ export default function IndusEcommerce() {
     entertainment: {
       0: entertain1,
       1: entertain2,
-      2:entertain3,
-      3:entertain4,
-      4:entertain5,
+      2: entertain3,
+      3: entertain4,
+      4: entertain5,
     },
-    realEstate:{
-      0:realEs1,
-      1:realEs2,
-      2:realEs3,
-      3:realEs4,
-      4:realEs5
+    realEstate: {
+      0: realEs1,
+      1: realEs2,
+      2: realEs3,
+      3: realEs4,
+      4: realEs5
     },
-    logicstics:{
-      0:logics1,
-      1:logics2,
-      2:logics3,
-      3:logics4,
-      4:logics5
+    logicstics: {
+      0: logics1,
+      1: logics2,
+      2: logics3,
+      3: logics4,
+      4: logics5
     },
-    healthcare:{
-      0:health1,
-      1:health2,
-      2:health3,
-      3:health4,
-      4:health5
+    healthcare: {
+      0: health1,
+      1: health2,
+      2: health3,
+      3: health4,
+      4: health5
     },
   };
   const renderImages = (section) => {
@@ -196,11 +196,11 @@ export default function IndusEcommerce() {
 
   useEffect(() => {
     renderDefaultImage();
-  }, [activeKey.ecom, activeKey.education, activeKey.food,activeKey.travel,activeKey.entertainment,activeKey.realEs,activeKey.logitics,activeKey.healthcare]);
+  }, [activeKey.ecom, activeKey.education, activeKey.food, activeKey.travel, activeKey.entertainment, activeKey.realEs, activeKey.logitics, activeKey.healthcare]);
 
   const renderDefaultImage = () => {
-    
-    const sections = ["ecom", "education", "food","travel","entertainment","realEs","logitics","healthcare"];
+
+    const sections = ["ecom", "education", "food", "travel", "entertainment", "realEs", "logitics", "healthcare"];
     sections.forEach((section) => {
       const sectionImages = document.getElementById(section);
       if (sectionImages) {
@@ -215,7 +215,7 @@ export default function IndusEcommerce() {
 
   return (
     <div className="indutry-toporder bgindus p-5">
-      <div className="container indus-top "ref={ecommerce}>
+      <div className="container indus-top " ref={ecommerce}>
         <div className="row">
           <h2 className="main-inus-head">E-commerce</h2>
           <div className="col-lg-6 order-1 order-lg-1">
@@ -269,7 +269,7 @@ export default function IndusEcommerce() {
                     stockouts and overstock situations.
                   </Accordion.Body>
                 </Accordion.Item>
-               
+
                 <Accordion.Item eventKey="4">
                   <Accordion.Header
                     onClick={() => handleAccordionClick("4", "ecom")}
@@ -288,7 +288,7 @@ export default function IndusEcommerce() {
             </Accordion>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-12 order-2  order-lg-2 ">
-            <img src={ecom} className="comarket-img   img-fluid " />
+            <img src={ecom} className="comarket-img   img-fluid " alt="img"/>
           </div>
         </div>
       </div>
@@ -370,7 +370,7 @@ export default function IndusEcommerce() {
                 </Accordion.Item> */}
                 <Accordion.Item eventKey="4">
                   <Accordion.Header
-                    onClick={() => handleAccordionClick("4","education")}
+                    onClick={() => handleAccordionClick("4", "education")}
                     className={activeKey === "4" ? "active" : ""}
                   >
                     <h5 className="ecom-head">Homework Assistance Chatbot</h5>
@@ -385,7 +385,7 @@ export default function IndusEcommerce() {
           </div>
         </div>
       </div>
-      <div className="container indus-top"ref={Food}>
+      <div className="container indus-top" ref={Food}>
         <div className="row">
           <h2 className="main-inus-head">Food</h2>
           <div className="col-lg-6 order-1 order-lg-1">
@@ -518,7 +518,7 @@ export default function IndusEcommerce() {
                 </Accordion.Item>
                 <Accordion.Item eventKey="4">
                   <Accordion.Header
-                    onClick={() => handleAccordionClick("4","travel")}
+                    onClick={() => handleAccordionClick("4", "travel")}
                     className={activeKey.travel === "4" ? "active" : ""}
                   >
                     <h5 className="ecom-head">Predictive Fleet Maintenance</h5>
@@ -533,7 +533,7 @@ export default function IndusEcommerce() {
           </div>
         </div>
       </div>
-      <div className="container indus-top"ref={Entertainment}>
+      <div className="container indus-top" ref={Entertainment}>
         <div className="row">
           <h2 className="main-inus-head">Entertainment</h2>
           <div className="col-lg-6">
@@ -665,7 +665,7 @@ export default function IndusEcommerce() {
                 </Accordion.Item>
                 <Accordion.Item eventKey="4">
                   <Accordion.Header
-                    onClick={() => handleAccordionClick("4","realEstate")}
+                    onClick={() => handleAccordionClick("4", "realEstate")}
                     className={activeKey.realEstate === "4" ? "active" : ""}
                   >
                     <h5 className="ecom-head">Smart Home Advancements</h5>
@@ -812,7 +812,7 @@ export default function IndusEcommerce() {
                 </Accordion.Item>
                 <Accordion.Item eventKey="4">
                   <Accordion.Header
-                    onClick={() => handleAccordionClick("4","healthcare")}
+                    onClick={() => handleAccordionClick("4", "healthcare")}
                     className={activeKey.healthcare === "4" ? "active" : ""}
                   >
                     <h5 className="ecom-head">Telemedicine Excellence</h5>

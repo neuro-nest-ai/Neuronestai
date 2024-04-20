@@ -18,7 +18,7 @@ export default function Home_Commerce() {
             </p>
           </div>
           <div className="col-lg-6   ps-5 mb-5 pe-4">
-            <img src={common1} className=" homeimg" />
+            <img src={common1} className=" homeimg" alt="img" />
           </div>
          
         </div>

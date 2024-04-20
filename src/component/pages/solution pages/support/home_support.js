@@ -20,7 +20,7 @@ export default function Home_Support() {
             </p>
           </div>
           <div className="col-lg-6 mt-5 ps-5 mb-5 pe-4">
-            <img src={common1} className="img-com homeimg2" />
+            <img src={common1} className="img-com homeimg2"  alt="img"/>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function Home_Industry() {
             </p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
           </div>
           <div className="col-lg-5 mt-5 ps-5 mb-5 pe-4">
-            <img src={common1} className="homeimg6"/>
+            <img src={common1} className="homeimg6" alt="img"/>
           </div>
           <div className="col-lg-1"></div>
         </div>

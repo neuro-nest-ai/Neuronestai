@@ -1,7 +1,7 @@
 import React, { useEffect ,useState} from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown, faBarsStaggered, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 
 import './nav.css';
@@ -52,7 +52,7 @@ export default function TopNav() {
   {navbarExpanded ? (
     <FontAwesomeIcon className="text-light" icon={faXmark} />
   ) : (
-    <span> <img className="tog" src={tog}/></span>
+    <span> <img className="tog" src={tog} alt="img"/></span>
   )}
 </h2>
 

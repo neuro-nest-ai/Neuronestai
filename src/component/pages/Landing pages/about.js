@@ -21,7 +21,7 @@ export default function About() {
         <div className='row'>
             <div className='col-lg-1'></div>
             <div className='col-lg-10 chat-img'>
-                <img src={chat} className='chat-pic '/> 
+                <img src={chat} className='chat-pic ' alt='img'/> 
             </div>
             <div className='col-lg-1'></div>
         </div>

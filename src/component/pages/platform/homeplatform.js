@@ -24,7 +24,7 @@ export default function Home_Platform() {
             </p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
           </div>
           <div className="col-lg-6  mb-5 ">
-            <img src={common1} className="homeimg5 img-fluid"/>
+            <img src={common1} className="homeimg5 img-fluid" alt="img"/>
           </div>
           <div className="col-lg-1"></div>
         </div>

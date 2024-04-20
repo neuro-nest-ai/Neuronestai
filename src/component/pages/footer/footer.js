@@ -48,7 +48,7 @@ export default function Footer() {
         <div class="container ">
           <div class="row ">
             <div className="col-lg-1 mt-5 p-3">
-              <img src={logo} width="75ch" height="50px" />
+              <img src={logo} width="75ch" height="50px" alt="img" />
             </div>
             <div class="col-lg-11 mt-5 p-2">
               <h4>Neuro Nest AI</h4>
@@ -119,7 +119,7 @@ export default function Footer() {
             y21 y23">
               <p class="mb-1">+91 99-42-620-943</p>
               <p>Neuronestai.23@gmail.com</p>
-               <a href="https://wa.me/919942620943?  text=Hi how are you." target="_blank"><FontAwesomeIcon icon={faWhatsapp} className="mb-1 contact-icon fa-1x" /></a>
+               <a href="https://wa.me/919942620943?  text=Hi how are you." target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} className="mb-1 contact-icon fa-1x" /></a>
               <FontAwesomeIcon icon={faTelegram} className="ps-2 fa-1x ps-3 mb-1 contact-icon" />
               <FontAwesomeIcon icon={faLinkedin} className="ps-2 fa-1x ps-3 mb-1 contact-icon" />
               <FontAwesomeIcon icon={faTwitter} className="ps-2 fa-1x ps-3 mb-1 contact-icon" />

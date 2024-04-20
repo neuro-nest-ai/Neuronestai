@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import Accordion from "react-bootstrap/Accordion";
 import plat1 from "../../assets/whatsapp.jpg";

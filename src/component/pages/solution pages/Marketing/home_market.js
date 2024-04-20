@@ -23,7 +23,7 @@ export default function Home_market() {
           <div className="col-lg-1"></div>
 
           <div className="col-lg-5 col-md-6 col-12 mt-5 ps-5 mb-5 pe-4">
-            <img src={common1} className=" homeimg1 img-fluid"/>
+            <img src={common1} className=" homeimg1 img-fluid"alt="img"/>
           </div>
         </div>
       </div>

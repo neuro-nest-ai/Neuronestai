@@ -68,14 +68,14 @@ export default function Convo_Commerce() {
               </p>
             </div>
             <div className="col-lg-5 col-md-6 col-sm-12 col-12 order-2 order-lg-2">
-              <img src={img1} className="comarket-img " />
+              <img src={img1} className="comarket-img " alt="img"/>
             </div>
           </div>
         </div>
         <div className="container mt-5">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12 order-2 order-lg-1">
-              <img src={img2} className="comarket-img " />
+              <img src={img2} className="comarket-img " alt="img" />
             </div>
 
             <div className="col-lg-6 col-md-5 col-sm-12 col-12 mt-5 ps-5 order-1 order-lg-1">
@@ -117,14 +117,14 @@ export default function Convo_Commerce() {
               </p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12 order-2 order-lg-1">
-              <img src={img3} className="comarket-img img-fluid" />
+              <img src={img3} className="comarket-img img-fluid"  alt="img"/>
             </div>
           </div>
         </div>
         <div className="container mt-5 p-4">
           <div className="row">
             <div className="col-lg-5 col-md-6  col-sm-12 col-12 order-2 order-lg-1">
-              <img src={img4} className="comarket-img " />
+              <img src={img4} className="comarket-img " alt="img" />
             </div>
             <div className="col-lg-7 col-md-5 col-sm-12 col-12 mt-5 ps-5 order-1 order-lg-2">
               <h3 className="market-title">Integration with Marketing Tools</h3>
